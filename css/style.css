@@ -309,8 +309,12 @@ html {
 
 @media (max-width:768px){
 
-  .message-container{
+  .message .container{
     flex-direction:column;
+  }
+
+  .message-image{
+    text-align:center;
   }
 
 }
