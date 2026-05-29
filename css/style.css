@@ -307,7 +307,7 @@ html {
 
 }
 
-@media (max-width:900px){
+@media (max-width:1200px){
 
   .message .container{
     flex-direction:column;
