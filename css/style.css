@@ -302,7 +302,7 @@ html {
 @media screen and (max-width: 768px) {
 
   .hero-text h1 {
-    font-size: 24px;
+    font-size: 23px;
   }
 
 }
@@ -318,6 +318,8 @@ html {
   }
 
 }
+
+/*メッセージ画像*/
 
 .message-container{
   display:flex;
@@ -344,4 +346,10 @@ html {
   align-items:center;
   justify-content:space-between;
   gap:80px;
+}
+
+.page-title{
+  border-bottom:1px solid #d8cfc5;
+  padding-bottom:15px;
+  margin-bottom:40px;
 }
