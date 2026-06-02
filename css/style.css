@@ -353,3 +353,38 @@ html {
   padding-bottom:15px;
   margin-bottom:40px;
 }
+
+h2::after{
+  content:"";
+  display:block;
+  width:100px;
+  height:1px;
+  background:#d8cfc5;
+  margin-top:15px;
+}
+
+.contact-title::after{
+  margin:15px auto 0;
+}
+
+.concept-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 38px;
+
+  background-color: #c8b8a6;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 999px;
+
+  transition: 0.3s;
+}
+
+.concept-button:hover {
+  opacity: 0.8;
+}
+
+.concept-button-wrap{
+  text-align:right;
+}
